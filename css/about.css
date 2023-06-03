@@ -1,0 +1,155 @@
+@charset "UTF-8";
+/* CSS Document */
+.top-wrapper {
+  /* max-width: 375px;
+  height: 170px; */
+  margin: 0 auto;
+  /* background-image: url(../image/criant_m.png);
+  background-repeat: no-repeat; */
+  position: relative;
+
+}
+.top-wrapper img {
+  object-fit: cover;
+}
+.top-wrapper-image-box {
+  background-color: rgba(242, 242, 242,0.5);
+  display: block;
+  height:50px;
+  width: 100px;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+}
+
+.top-wrapper-image-box h2 {
+  text-align: center;
+  line-height: 3.0rem;
+  font-size: 3.2rem;
+  font-family: oswald, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: auto;
+  position: relative;
+}
+.top-wrapper-image-slider {}
+.top-massage-wrapper {
+  display: block;
+  padding: 20px;
+}
+.section-about-wrapper {
+  margin: 20px 20px;
+  background: #f2f2f2;
+  border-radius: 5px;
+  display: block;
+  padding: 0 20px 20px;
+}
+.section-about-title-top h3 {
+  padding-top: 15px;
+  font-size: 3.2rem;
+  font-family: oswald, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.section-about-title h2 {
+  padding-top: 20px;
+  font-size: 3.2rem;
+  font-family: oswald, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.section-about-image {
+  width: 295px;
+  padding-top: 20px;
+}
+.section-about-text ul {
+  padding-top: 20px;
+  display: flex;
+  list-style: none;
+}
+.triangle {
+  height: 14px;
+  width: 14px;
+  margin: auto;
+}
+.section-about-text p {
+  padding-right: 20px;
+  text-align: left;
+  line-height: 2.8rem;
+  font-size: 1.6rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+  font-weight: 200;
+}
+@media (min-width:1080px) {
+  .section-about-wrapper {
+    margin: 40px 150px 80px;
+    padding: 0 40px 40px;
+    justify-content: space-around;
+  }
+  .section-about-responsive {
+    display: flex;
+  }
+  .section-about-responsive img {
+    width: 800px;
+    height: 100%;
+    max-height: 260px;
+  }
+  .section-about-title h2 {
+    padding-top: 40px;
+  }
+  .section-about-responsive {
+    padding-top: 40px;
+    padding-left: 20px;
+    margin-bottom: 60px;
+  }
+  .section-about-text-position li img {
+    width: 10px;
+    height: 10px
+  }
+  .section-about-text-position {
+    max-width: 900px;
+
+  }
+  .view_more-button {
+    margin-top: 40px;
+  }
+  .section-about-text {
+    margin-left: 20px;
+  }
+}
+@media (min-width:1080px) {
+  .top-wrapper {
+    max-width: 100%;
+    /* max-height: 100%;
+    object-fit: cover;
+    min-height: 100vh; */
+    display: block;
+    background-size: cover;
+    margin: 0;
+  }
+}
+@media (min-width:700px){
+  .top-wrapper-image-box {
+    top: 40%;
+  }
+}
+@media (min-width:1080px) {
+  .top-wrapper-image-box {
+    width: 300px;
+    height: 130px;
+    border-radius: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+    display: block;
+  }
+  .section-about-title-top h3 {
+  padding-top: 50px;
+  }}

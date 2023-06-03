@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/* CSS Document */
+.top-wrapper {
+  /* max-width: 375px;
+  height: 170px; */
+  margin: 0 auto;
+  /* background-image: url(../image/criant_m.png);
+  background-repeat: no-repeat; */
+  position: relative;
+
+}
+.top-wrapper img {
+  object-fit: cover;
+}
+.top-wrapper-image-box {
+  background-color: rgba(242, 242, 242,0.5);
+  display: block;
+  height:50px;
+  width: 100px;
+  border-radius: 5px;
+  position: absolute;
+  left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50px;
+}
+.top-wrapper-image-box h3 {
+  padding-top: 10px;
+  line-height: 3.0rem;
+	font-size: 3.2rem;
+  font-family: oswald, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  
+}
+.top-wrapper-image-slider {}
+.top-massage-wrapper {
+  
+display: block;
+  padding: 20px;
+}
+.top-massege-eng-upper h2 {
+  font-size: 3.2rem;
+  font-family: oswald, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.top-massege-eng-under h3 {
+  margin-top: 20px;
+  font-size: 2.2rem;
+  font-family: oswald, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.top-massege-jpn p {
+  padding: 0 20px;
+	text-align: left;
+  line-height: 2.8rem;
+  margin-top: 20px;
+  font-size: 1.6rem;
+  font-family: "Hiragino Kaku Gothic ProN", Meiryo, "sans-serif";
+  font-weight: 200;
+}
+@media (min-width:1080px) {
+  .top-wrapper-image-box {
+    width: 400;
+    height: 130px;
+  }
+
+.section-news-wrapper {
+  margin: 0 20px 20px ;
+  background: #f2f2f2;
+  background-image: url("../image/criant_k_harf.png");
+  border-radius: 5px;
+  display: block;
+  background-size: contain;
+  padding: 0 20px 20px;
+}}
+.section-news-title h2 {
+  padding-top: 20px;
+  font-size: 3.2rem;
+  font-family: oswald, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.section-news-image {
+  width: 295px;
+	padding-top: 20px;
+}
+.section-news-text ul {
+  padding-top: 20px;
+  display: flex;
+  list-style: none;
+}
+
+.section-news-wrapper {
+  margin: 0 20px 20px ;
+  background: #f2f2f2;
+  border-radius: 5px;
+  display: block;
+  padding: 0 20px 20px;
+}
+.section-news-title {
+  padding-top: 20px;
+  font-size: 3.2rem;
+  font-family: oswald, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.section-news-time-upper,.section-news-time-under {
+  margin-top: 20px;
+  padding: 0 20px;
+  text-align: left;
+}
+.section-news-time-upper , .section-news-time-under time {
+  font-weight: 300;
+}
+.section-news-category h3 {
+  display: block;
+  padding: 20px 20px 0 ;
+  text-align: left;
+  font-size: 2.4rem;
+  font-weight: 300;
+  line-height: 3.6rem;
+}
+.section-news-text  ul {
+  padding-top: 20px;
+  display: flex;
+  list-style: none;
+}
+.section-news-text-position {
+  padding-bottom: 20px;
+}
+.section-news-text-position li p {
+  text-align: left;
+  padding-right: 20px;
+  font-weight :300;
+}
+.section-news-text-ex ul {
+	padding-top: 0px;
+	display: block;}
+.section-news-text-ex ul p{
+	text-align: left;
+	padding-top: 20px;
+	display: block;}
+@media (min-width:1080px) {
+  
+  .section-news-wrapper h2 {
+  padding-top: 40px;
+  }
+  .section-news-wrapper {
+    margin: 80px 150px ;
+    padding: 0 40px 40px;
+    
+  }
+  .section-news-responsive {
+    display: flex;
+    padding-top: 40px;
+    margin-bottom: 60px;
+    width: 100%
+  }
+.section-news-responsive div {
+  width: 100%;
+  }
+  .min_border {
+    width: 100%
+  }
+.section-news-text-position li div img {
+    width: 10px;
+    height: 10px}
+}
+.section-news-text-ex {
+  padding-bottom: 20px;
+}
+.view_more-button {
+  margin-top: 40px;
+}
+@media (min-width:700px){
+  .top-wrapper-image-box {
+    top: 40%;
+    }}
+@media (min-width:1080px) {
+  .top-wrapper {
+    max-width: 100%;
+    /* max-height: 100%;
+    object-fit: cover;
+    min-height: 100vh; */
+    display: block;
+    background-size: cover;
+    margin: 0;
+  }
+}
+@media (min-width:1080px) {
+  .top-wrapper-image-box {
+    width: 300px;
+    height: 130px;
+    border-radius: 5px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
+    display: block;
+  }
+  
+  .top-wrapper-image-box h2 {
+  text-align: center;
+  line-height: 3.0rem;
+  font-size: 3.2rem;
+  font-family: oswald, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+    display: table-cell;
+  vertical-align: middle;
+    
+}
+  .section-news-title {
+   padding-top: 40px;
+  }
+  .top-wrapper-image-box h3 {
+    padding-top: 50px;
+  }}
